@@ -1,0 +1,22 @@
+﻿  Building 'usbview' with toolset 'WindowsApplicationForDrivers10.0' and the 'Desktop' target platform.
+          1 file(s) copied.
+  uvcview.c
+c:\users\bcampanella\desktop\usbview\uvcview.c(1534): warning C4113: 'void (__stdcall *)(HWND,HTREEITEM,PVOID,char *)' differs in parameter lists from 'LPFNTREECALLBACK'
+c:\users\bcampanella\desktop\usbview\uvcview.c(1882): warning C4456: declaration of 'i' hides previous local declaration
+  c:\users\bcampanella\desktop\usbview\uvcview.c(1861): note: see declaration of 'i'
+c:\users\bcampanella\desktop\usbview\uvcview.c(1907): warning C4456: declaration of 'i' hides previous local declaration
+  c:\users\bcampanella\desktop\usbview\uvcview.c(1861): note: see declaration of 'i'
+c:\users\bcampanella\desktop\usbview\uvcview.c(1698): warning C4189: 'error': local variable is initialized but not referenced
+c:\users\bcampanella\desktop\usbview\uvcview.c(2176): warning C4047: 'function': 'LONG' differs in levels of indirection from 'HCURSOR'
+c:\users\bcampanella\desktop\usbview\uvcview.c(2176): warning C4024: 'SetClassLongA': different types for formal and actual parameter 3
+c:\users\bcampanella\desktop\usbview\uvcview.c(2185): warning C4047: 'function': 'LONG' differs in levels of indirection from 'HCURSOR'
+c:\users\bcampanella\desktop\usbview\uvcview.c(2185): warning C4024: 'SetClassLongA': different types for formal and actual parameter 3
+c:\users\bcampanella\desktop\usbview\uvcview.c(2513): warning C4057: 'function': 'LPDWORD' differs in indirection to slightly different base types from 'int *'
+c:\users\bcampanella\desktop\usbview\uvcview.c(2613): warning C4389: '==': signed/unsigned mismatch
+c:\users\bcampanella\desktop\usbview\uvcview.c(2437): warning C4100: 'size': unreferenced formal parameter
+c:\users\bcampanella\desktop\usbview\uvcview.c(2502): warning C4189: 'error': local variable is initialized but not referenced
+c:\users\bcampanella\desktop\usbview\uvcview.c(2841): warning C4996: 'strcmpi': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strcmpi. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\string.h(543): note: see declaration of 'strcmpi'
+c:\users\bcampanella\desktop\usbview\uvcview.c(3166): warning C4020: 'lpfnTreeCallback': too many actual parameters
+  xmlhelper.obj : /DEBUG:FASTLINK is not supported when managed code is present; restarting link with /DEBUG:FULL
+  usbview.vcxproj -> C:\Users\bcampanella\Desktop\usbview\Debug\usbview.exe
